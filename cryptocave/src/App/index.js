@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
+import AppLayout from './AppLayout';
+import AppBar from './AppBar';
 
 function App() {
   return (
-    <div>
+    <AppLayout>
+      <AppBar/>
      Hello World
-    </div>
+    </AppLayout>
   );
 }
 
