@@ -1,6 +1,9 @@
 import React from 'react';
 import ConfirmButton from './ConfirmButton';
+import Page from '../Shared/Page';
 
 export default function(){
-    return <div><ConfirmButton/></div>
+    return <Page name="Search">
+        <ConfirmButton/>
+        </Page>
 }
